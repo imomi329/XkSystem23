@@ -1,0 +1,32 @@
+<div th:fragment="_header_topbar" class="topbar" xmlns:th="http://www.w3.org/1999/xhtml">
+    <!--begin::Topbar container-->
+    <div class="container-fluid py-6 py-lg-0 d-flex flex-column flex-sm-row align-items-lg-stretch justify-content-sm-between">
+        <!--begin::Page title-->
+        <div th:replace="admin/_fragments/_header_topbar_breadcrumb :: _fragment_topbar_breadcrumb"></div>
+        <!--end::Page title-->
+        <!--begin::Action group-->
+        <div class="d-flex align-items-center pt-3 pt-sm-0">
+            <!--begin::Action wrapper-->
+<!--            <div th:replace="admin/_fragments/_header_topbar_search :: _fragment_topbar_search"></div>-->
+            <!--end::Action wrapper-->
+            <!--begin::Actions-->
+            <div class="d-flex">
+                <!--begin::Notifications-->
+<!--                <div th:replace="admin/_fragments/_header_topbar_notification :: _fragment_topbar_notification"></div>-->
+                <!--end::Notifications-->
+                <!--begin::Chat-->
+<!--                <div th:replace="admin/_fragments/_header_topbar_chat :: _fragment_topbar_chat"></div>-->
+                <!--end::Chat-->
+                <!--begin::Theme mode-->
+<!--                <div th:replace="admin/_fragments/_header_topbar_theme :: _fragment_topbar_theme"></div>-->
+                <!--end::Theme mode-->
+                <!--begin::Quick links-->
+<!--                <div th:replace="admin/_fragments/_header_topbar_links :: _fragment_topbar_links"></div>-->
+                <!--end::Quick links-->
+            </div>
+            <!--end::Actions-->
+        </div>
+        <!--end::Action group-->
+    </div>
+    <!--end::Topbar container-->
+</div>
